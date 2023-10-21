@@ -1,15 +1,3 @@
 # ai-cli
 
-To install dependencies:
-
-```bash
-bun install
-```
-
-To run:
-
-```bash
-bun run index.ts
-```
-
-This project was created using `bun init` in bun v1.0.6. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+Some random project I made because GitHub Copilot CLI looked cool and I want it now.
