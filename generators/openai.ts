@@ -13,9 +13,7 @@ export default class OpenAIGenerator implements CommandGenerator {
     model: GPTModel
   }) {
     this.model = options.model;
-    this.openai = new OpenAI({
-      apiKey: process.env.OPENAI_KEY
-    });
+    this.openai = new OpenAI();
   }
 
   async generateCommand(request: string, options?: { history?: ChatCompletionMessageParam[], tweak?: string }) {

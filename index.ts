@@ -1,3 +1,5 @@
+#!/usr/bin/env bun
+
 import { oraPromise } from "ora";
 import MockGenerator from "./generators/mock";
 import OpenAIGenerator from "./generators/openai";
